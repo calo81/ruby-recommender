@@ -1,0 +1,8 @@
+require_relative 'recommendations/datamodels/file_data_model'
+require_relative 'recommendations/similarity/euclidean_distance_similarity'
+require_relative 'recommendations/similarity/neighborhood/nearest_n_user_neighborhood'
+require_relative 'recommendations/model/preference'
+require_relative 'recommendations/model/preferences'
+require_relative 'recommendations/model/recommended_item'
+require_relative 'recommendations/recommender/generic_user_based_recommender'
+require_relative 'recommendations/recommender/estimation/default_rating_estimator'
