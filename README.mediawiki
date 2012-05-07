@@ -1,4 +1,4 @@
-#Recommender Engine in Ruby.
+#Recommender Engine in Ruby. Based loosely in Apache Mahout
 
 #For using it, install the gem and then as an example do the following:
 
