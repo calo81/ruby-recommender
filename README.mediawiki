@@ -3,7 +3,7 @@
 #For using it, install the gem and then as an example do the following:
 
 
-   <code> require 'recommendations'
+   require 'recommendations'
         
     def save_as_csv_file(file_path,values)
        File.open(file_path,'w') do |file|
@@ -21,4 +21,4 @@
     recommender = Recommendations::Recommender::GenericUserBasedRecommender.new(data_model,similarity,neighborhood,rating_estimator)
     recommendations = recommender.recommend('A',5)
     puts recommendations[0].item
-    puts recommendations[0].value </code>
+    puts recommendations[0].value 
