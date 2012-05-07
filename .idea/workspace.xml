@@ -31,19 +31,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ruby-recommender.gemspec" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ruby-recommender.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ruby-recommender.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.21186441">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recommended_item.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/recommendations/model/recommended_item.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+            <state line="10" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -52,7 +43,16 @@
       <file leaf-file-name="generic_user_based_recommender.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/recommendations/recommender/generic_user_based_recommender.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="70" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generic_user_based_recommender_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/recommendations/recommender/generic_user_based_recommender_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="67" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.4827586">
               <folding />
             </state>
           </provider>
@@ -127,7 +127,6 @@
         <option value="$PROJECT_DIR$/spec/recommendations/similarity/neighborhood/nearest_n_user_neighborhood_spec.rb" />
         <option value="$PROJECT_DIR$/lib/recommendations/similarity/neighborhood/nearest_n_user_neighborhood.rb" />
         <option value="$PROJECT_DIR$/spec/recommendations/recommender/generic_user_based_recommender.rb" />
-        <option value="$PROJECT_DIR$/spec/recommendations/recommender/generic_user_based_recommender_spec.rb" />
         <option value="$PROJECT_DIR$/lib/recommendations.rb" />
         <option value="$PROJECT_DIR$/lib/recommendations/recommender/estimation/default_rating_estimator.rb" />
         <option value="$PROJECT_DIR$/spec/recommendations/recommender/estimation/default_rating_estimator_spec.rb" />
@@ -138,6 +137,7 @@
         <option value="$PROJECT_DIR$/lib/recommendations/model/recommended_item.rb" />
         <option value="$PROJECT_DIR$/spec/integrated_recommendation_spec.rb" />
         <option value="$PROJECT_DIR$/ruby-recommender.gemspec" />
+        <option value="$PROJECT_DIR$/spec/recommendations/recommender/generic_user_based_recommender_spec.rb" />
       </list>
     </option>
   </component>
@@ -535,7 +535,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="RSpec.Recommendations">
+  <component name="RunManager" selected="RSpec.Recommendations::Recommender::GenericUserBasedRecommender">
     <configuration default="false" name="Recommendations::Recommender::GenericUserBasedRecommender" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="ruby-recommender" />
@@ -858,11 +858,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26293105" sideWeight="0.68549424" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26293105" sideWeight="0.68677795" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31421447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31322208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -945,11 +945,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/recommendations.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="81" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/recommendations/recommender/estimation/default_rating_estimator_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0" />
@@ -978,11 +973,6 @@
     <entry file="file://$PROJECT_DIR$/lib/recommendations/model/recommended_item.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="23" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/recommendations/recommender/generic_user_based_recommender.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="70" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/recommendations/datamodels/file_data_model.rb">
@@ -1028,7 +1018,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ruby-recommender.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.21186441">
+        <state line="10" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/recommendations/recommender/generic_user_based_recommender.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/recommendations/recommender/generic_user_based_recommender_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="67" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.4827586">
           <folding />
         </state>
       </provider>
