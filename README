@@ -1,0 +1,24 @@
+Recommender Engine in Ruby.
+
+For using it, install the gem and then as an example do the following:
+
+
+    require 'recommendations'
+        
+    def save_as_csv_file(file_path,values)
+       File.open(file_path,'w') do |file|
+         values.each do |row|
+           file.puts "#{row[0]},#{row[1]},#{row[2]}"
+         end
+       end
+    end    
+    
+    save_as_csv_file '/tmp/data_file',[['A','B',5],['A','C',3],['B','B',5],['B','C',3],['B','D',2]]
+    data_model = Recommendations::DataModel::FileDataModel.new('/tmp/data_file')
+    similarity = Recommendations::Similarity::EuclideanDistanceSimilarity.new(data_model)
+    neighborhood = Recommendations::Similarity::Neighborhood::NearestNUserNeighborhood.new(data_model,similarity,5,0.5)
+    rating_estimator = Recommendations::Recommender::Estimation::DefaultRatingEstimator.new(data_model,similarity)
+    recommender = Recommendations::Recommender::GenericUserBasedRecommender.new(data_model,similarity,neighborhood,rating_estimator)
+    recommendations = recommender.recommend('A',5)
+    puts recommendations[0].item
+    puts recommendations[0].value 
