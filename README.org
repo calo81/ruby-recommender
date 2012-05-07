@@ -1,6 +1,6 @@
-Recommender Engine in Ruby.
+#Recommender Engine in Ruby.
 
-For using it, install the gem and then as an example do the following:
+#For using it, install the gem and then as an example do the following:
 
 
     require 'recommendations'
