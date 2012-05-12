@@ -4,17 +4,17 @@ require_relative '../lib/recommendations'
 describe "Recommendations with mongo datamodel" do
 
   before(:each) do
-    @db = Mongo::Connection.new.db("recommender")
-    #@preference_collection = @db['items']
-   # @preference_collection.insert(:user_id=>'A', :item_id=>'B', :preference=>5)
-    #@preference_collection.insert(:user_id=>'A', :item_id=>'C', :preference=>3)
-   # @preference_collection.insert(:user_id=>'B', :item_id=>'B', :preference=>5)
-   # @preference_collection.insert(:user_id=>'B', :item_id=>'C', :preference=>3)
-   # @preference_collection.insert(:user_id=>'B', :item_id=>'D', :preference=>2)
+  @db = Mongo::Connection.new.db("recommender")
+   @preference_collection = @db['items']
+   @preference_collection.insert(:user_id=>'A', :item_id=>'B', :preference=>5)
+   @preference_collection.insert(:user_id=>'A', :item_id=>'C', :preference=>3)
+   @preference_collection.insert(:user_id=>'B', :item_id=>'B', :preference=>5)
+   @preference_collection.insert(:user_id=>'B', :item_id=>'C', :preference=>3)
+   @preference_collection.insert(:user_id=>'B', :item_id=>'D', :preference=>2)
   end
 
   after(:each) do
-    #@preference_collection.remove
+    @preference_collection.remove
   end
 
   it "should integrate all elements and recommend accordingly" do

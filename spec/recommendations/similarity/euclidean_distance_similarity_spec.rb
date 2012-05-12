@@ -16,7 +16,8 @@ describe Recommendations::Similarity::EuclideanDistanceSimilarity do
     user_1 = '1'
     user_2 = '2'
     data_model.should_receive(:preferences_for_user).with(user_1).and_return(preferences_for_user_1(1, 2))
-    data_model.should_receive(:preferences).and_return(preferences_for_user_2(1, 2))
+    data_model.should_receive(:preference_for_user_and_item).with(user_2,'A').and_return(Recommendations::Model::Preference.new('2', 'A', 1))
+    data_model.should_receive(:preference_for_user_and_item).with(user_2,'B').and_return(Recommendations::Model::Preference.new('2', 'A', 2))
     similarity = Recommendations::Similarity::EuclideanDistanceSimilarity.new(data_model)
     user_similarity = similarity.user_similarity(user_1, user_2)
     user_similarity.should == 1
@@ -27,7 +28,8 @@ describe Recommendations::Similarity::EuclideanDistanceSimilarity do
     user_1 = '1'
     user_2 = '2'
     data_model.should_receive(:preferences_for_user).with(user_1).and_return(preferences_for_user_1(3, -2))
-    data_model.should_receive(:preferences).and_return(preferences_for_user_2(-3,2))
+    data_model.should_receive(:preference_for_user_and_item).with(user_2,'A').and_return(Recommendations::Model::Preference.new('2', 'A', -3))
+    data_model.should_receive(:preference_for_user_and_item).with(user_2,'B').and_return(Recommendations::Model::Preference.new('2', 'A', 2))
     similarity = Recommendations::Similarity::EuclideanDistanceSimilarity.new(data_model)
     user_similarity = similarity.user_similarity(user_1, user_2)
     user_similarity.should == 0.1639607805437114

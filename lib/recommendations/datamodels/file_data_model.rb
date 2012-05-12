@@ -4,7 +4,7 @@ require 'set'
 module Recommendations
   module DataModel
     class FileDataModel
-      attr_reader :preferences, :users
+      attr_reader :preferences
       def initialize(file_path)
         @preferences = Recommendations::Model::Preferences.new
         @users = Set.new
@@ -23,6 +23,10 @@ module Recommendations
 
       def preference_for_user_and_item(user, item)
         @preferences.for_user_item(user, item)
+      end
+
+      def users(sample_size = -1)
+        @users
       end
 
       def items_for_users(users)

@@ -1,9 +1,12 @@
 require 'mongo'
 require_relative '../../../lib/recommendations/model/preference'
 require_relative '../../../lib/recommendations/model/preferences'
+require_relative '../../../lib/caching/cacheable'
 module Recommendations
   module DataModel
     class MongoDataModel
+      include Cacheable
+
       DEFAULT_HOST = "localhost"
       DEFAULT_PORT = 27017
 
@@ -12,12 +15,12 @@ module Recommendations
       end
 
       def preferences_for_user(user)
-        results = @collection.find({:user_id => user})
+        results = @collection.find({"user_id" => user})
         extract_results_into_preferences(results)
       end
 
       def preference_for_user_and_item(user, item)
-        results = @collection.find({:user_id => user, :item_id => item})
+        results = @collection.find({"user_id" => user, "item_id" => item})
         extract_results_into_preferences(results)[0]
       end
 
@@ -47,6 +50,8 @@ module Recommendations
         end
         preferences
       end
+
+      cacheable :users, :preferences, :items_for_users,  :preference_for_user_and_item,  :preferences_for_user
     end
   end
 end

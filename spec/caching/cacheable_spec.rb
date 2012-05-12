@@ -12,6 +12,14 @@ class SimpleCacheableUse
     "anything works"
   end
 
+  def method3
+
+  end
+
+  def method4
+
+  end
+
   cacheable :method1
 end
 
@@ -47,6 +55,17 @@ describe "Cacheable" do
     object.activate_cache
     value_1 = object.method2("x")
     value_2 = object.method2("x")
+    value_1.equal?(value_2).should be_false
+  end
+
+  it "should refresh the cache when refresh method configured is called" do
+    object = SimpleCacheableUse.new
+    object.activate_cache
+    value_1 = object.method1("x")
+    value_2 = object.method1("x")
+    value_1.equal?(value_2).should be_true
+    object.refresh_cache(:method1)
+    value_2 = object.method1("x")
     value_1.equal?(value_2).should be_false
   end
 
