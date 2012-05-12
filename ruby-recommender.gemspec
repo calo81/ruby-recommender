@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "ruby-recommender"
   s.summary = "Recommendation Engine for Ruby based loosely in Apache Mahout"
-  s.description = File.read(File.join(File.dirname(__FILE__), 'README'))
+  s.description = File.read(File.join(File.dirname(__FILE__), 'README.mediawiki'))
   s.version = "0.0.1"
   s.author = "Carlo Scarioni"
   s.email = "carlo.scarioni@gmail.com"
