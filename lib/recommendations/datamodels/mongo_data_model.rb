@@ -6,6 +6,7 @@ module Recommendations
     class MongoDataModel
       DEFAULT_HOST = "localhost"
       DEFAULT_PORT = 27017
+
       def initialize(conf)
         @collection = Mongo::Connection.new(conf[:host] || DEFAULT_HOST, conf[:port] || DEFAULT_PORT).db(conf[:db])[conf[:collection]]
       end
@@ -29,11 +30,8 @@ module Recommendations
         set.to_a
       end
 
-      def users
-        results = @collection.find()
-        results.map do |preference|
-          preference["user_id"]
-        end
+      def users(how_many=1000000)
+        @collection.distinct("user_id").first(how_many)
       end
 
       def preferences

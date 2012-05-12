@@ -12,9 +12,10 @@ module Recommendations
           total_similarity = 0.0
           count = 0
           neighbors.each do |neighbor|
+            next unless @data_model.preference_for_user_and_item(neighbor, item)
             similarity = @similarity.user_similarity(user, neighbor)
             preference = @data_model.preference_for_user_and_item(neighbor, item).preference
-            pref += similarity * preference
+            pref += similarity * preference.to_f
             total_similarity += similarity
             count +=1
           end

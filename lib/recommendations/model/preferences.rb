@@ -47,6 +47,10 @@ module Recommendations
         @preferences.size
       end
 
+      def empty?
+        @preferences.empty?
+      end
+
       def [](index)
         @preferences[index]
       end

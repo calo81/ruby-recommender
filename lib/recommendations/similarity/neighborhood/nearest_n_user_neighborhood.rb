@@ -2,15 +2,16 @@ module Recommendations
   module Similarity
     module Neighborhood
       class NearestNUserNeighborhood
-        def initialize(data_model, similarity, n_of_neighbors, min_similarity)
+        def initialize(data_model, similarity, n_of_neighbors, min_similarity,sample_size=1000000)
           @data_model = data_model
           @similarity = similarity
           @n_of_neighbors = n_of_neighbors
           @min_similarity = min_similarity
+          @sample_size  = sample_size
         end
 
         def user_neighborhood(user)
-            users = @data_model.users
+            users = @data_model.users(@sample_size)
             similarities = {}
             users.each do |other_user|
               next if user == other_user
