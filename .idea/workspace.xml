@@ -22,37 +22,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="mongo_data_model.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/recommendations/datamodels/mongo_data_model.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="53" column="22" selection-start="1641" selection-end="1657" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="full_file_backed_integrated_recommendation_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/full_file_backed_integrated_recommendation_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="11" selection-start="980" selection-end="980" vertical-scroll-proportion="-119.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="file_data_model.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/recommendations/datamodels/file_data_model.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="26" column="76" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="cacheable_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/caching/cacheable_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="18" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="cacheable_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/caching/cacheable_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="62" column="5" selection-start="1508" selection-end="1529" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="euclidean_distance_similarity.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/recommendations/similarity/euclidean_distance_similarity.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="69" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="full_mongo_backed_integrated_recommendation_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/full_mongo_backed_integrated_recommendation_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="37" column="17" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="full_mongo_backed_integrated_recommendation_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/full_mongo_backed_integrated_recommendation_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="7" selection-start="702" selection-end="702" vertical-scroll-proportion="0.49196142">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
               <folding />
             </state>
           </provider>
@@ -61,7 +89,11 @@
       <file leaf-file-name="recommended_item.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/recommendations/model/recommended_item.rb">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="11" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+=======
+            <state line="22" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
               <folding />
             </state>
           </provider>
@@ -76,37 +108,65 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="generic_user_based_recommender.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/recommendations/recommender/generic_user_based_recommender.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="26" column="26" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="cacheable.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/caching/cacheable.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="55" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="cacheable.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/caching/cacheable.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="49" selection-start="511" selection-end="511" vertical-scroll-proportion="0.1713881">
+=======
+      <file leaf-file-name="euclidean_distance_similarity_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/recommendations/similarity/euclidean_distance_similarity_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="default_rating_estimator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/recommendations/recommender/estimation/default_rating_estimator.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="0" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="mongo_data_model.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/recommendations/datamodels/mongo_data_model.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="0" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="mongo_data_model_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/recommendations/datamodels/mongo_data_model_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="generic_user_based_recommender.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/recommendations/recommender/generic_user_based_recommender.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
               <folding />
             </state>
           </provider>
@@ -135,16 +195,25 @@
         <option value="$PROJECT_DIR$/spec/recommendations/similarity/euclidean_distance_similarity_spec.rb" />
         <option value="$PROJECT_DIR$/lib/recommendations/datamodels/mongo_data_model.rb" />
         <option value="$PROJECT_DIR$/lib/recommendations/datamodels/file_data_model.rb" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/lib/caching/cacheable.rb" />
         <option value="$PROJECT_DIR$/lib/recommendations/recommender/generic_user_based_recommender.rb" />
+=======
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
         <option value="$PROJECT_DIR$/spec/full_mongo_backed_integrated_recommendation_spec.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="874" />
+=======
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="1056" />
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -521,18 +590,30 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+=======
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="RSpec.Recommendations with mongo datamodel">
+<<<<<<< HEAD
     <configuration default="false" name="Recommendations::DataModel::MongoDataModel" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="ruby-recommender" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/spec/recommendations/datamodels" />
+=======
+    <configuration default="false" name="Recommendations::Similarity::EuclideanDistanceSimilarity" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ruby-recommender" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/spec/recommendations/similarity" />
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -546,10 +627,17 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+<<<<<<< HEAD
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/recommendations/datamodels/mongo_data_model_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recommendations::DataModel::MongoDataModel" />
+=======
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/recommendations/similarity/euclidean_distance_similarity_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recommendations::Similarity::EuclideanDistanceSimilarity" />
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -562,39 +650,11 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="Recommendations::Similarity::EuclideanDistanceSimilarity" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="ruby-recommender" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/spec/recommendations/similarity" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/recommendations/similarity/euclidean_distance_similarity_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recommendations::Similarity::EuclideanDistanceSimilarity" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+=======
     <configuration default="false" name="euclidean_distance_similarity_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="ruby-recommender" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -615,7 +675,11 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/recommendations/similarity/euclidean_distance_similarity_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+<<<<<<< HEAD
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recommendations::Similarity::EuclideanDistanceSimilarity" />
+=======
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -626,7 +690,11 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+<<<<<<< HEAD
+    <configuration default="false" name="euclidean_distance_similarity_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+=======
     <configuration default="false" name="Recommendations with file data model" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="ruby-recommender" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -647,7 +715,58 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/full_file_backed_integrated_recommendation_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+<<<<<<< HEAD
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+=======
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recommendations with file data model" />
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+<<<<<<< HEAD
+    <configuration default="false" name="Recommendations with file data model" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ruby-recommender" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/spec" />
+=======
+    <configuration default="false" name="Cacheable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ruby-recommender" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/spec/caching" />
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+<<<<<<< HEAD
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/full_file_backed_integrated_recommendation_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recommendations with file data model" />
+=======
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/caching/cacheable_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Cacheable" />
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -804,10 +923,17 @@
       </method>
     </configuration>
     <list size="5">
+<<<<<<< HEAD
       <item index="0" class="java.lang.String" itemvalue="RSpec.Recommendations::DataModel::MongoDataModel" />
       <item index="1" class="java.lang.String" itemvalue="RSpec.Recommendations::Similarity::EuclideanDistanceSimilarity" />
       <item index="2" class="java.lang.String" itemvalue="RSpec.euclidean_distance_similarity_spec" />
       <item index="3" class="java.lang.String" itemvalue="RSpec.Recommendations with file data model" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="RSpec.Recommendations::Similarity::EuclideanDistanceSimilarity" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.euclidean_distance_similarity_spec" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Recommendations with file data model" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Cacheable" />
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
       <item index="4" class="java.lang.String" itemvalue="RSpec.Recommendations with mongo datamodel" />
     </list>
   </component>
@@ -839,18 +965,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="false" />
+=======
+    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
+    <editor active="true" />
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2413793" sideWeight="0.6988417" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3925354" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30049875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18633209" sideWeight="0.6947917" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30520833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -944,7 +1083,16 @@
           <line>36</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/spec/full_mongo_backed_integrated_recommendation_spec.rb</url>
+          <line>26</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/lib/recommendations/datamodels/mongo_data_model.rb</url>
+          <line>50</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/recommendations/datamodels/mongo_data_model.rb</url>
+<<<<<<< HEAD
           <line>40</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
@@ -954,6 +1102,9 @@
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/lib/recommendations/similarity/neighborhood/nearest_n_user_neighborhood.rb</url>
           <line>13</line>
+=======
+          <line>48</line>
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -969,6 +1120,7 @@
         <state line="83" column="0" selection-start="3062" selection-end="3062" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/spec/full_file_backed_integrated_recommendation_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="12" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0">
@@ -979,10 +1131,23 @@
     <entry file="file://$PROJECT_DIR$/spec/recommendations/recommender/estimation/default_rating_estimator_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" />
+=======
+    <entry file="file://$PROJECT_DIR$/lib/recommendations/recommender/estimation/default_rating_estimator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/recommendations/datamodels/mongo_data_model_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/recommendations/similarity/neighborhood/nearest_n_user_neighborhood.rb">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="19" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -996,17 +1161,37 @@
     <entry file="file://$PROJECT_DIR$/lib/recommendations/datamodels/mongo_data_model.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="22" selection-start="1641" selection-end="1657" vertical-scroll-proportion="0.0">
+=======
+        <state line="13" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p0/gems/rspec-core-2.8.0/lib/rspec/core/example.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="0" selection-start="2838" selection-end="2838" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/recommendations/similarity/euclidean_distance_similarity_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/lib/recommendations/datamodels/file_data_model.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="76" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/lib/caching/cacheable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="55" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/spec/caching/cacheable_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="5" selection-start="1508" selection-end="1529" vertical-scroll-proportion="0.0" />
@@ -1030,10 +1215,42 @@
     <entry file="file://$PROJECT_DIR$/lib/recommendations/recommender/generic_user_based_recommender.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="26" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/lib/recommendations/datamodels/file_data_model.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/recommendations/recommender/estimation/default_rating_estimator_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/full_file_backed_integrated_recommendation_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="980" selection-end="980" vertical-scroll-proportion="-119.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/caching/cacheable_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="18" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/recommendations/similarity/euclidean_distance_similarity.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="69" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/lib/recommendations/recommender/estimation/default_rating_estimator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" />
@@ -1042,13 +1259,29 @@
     <entry file="file://$PROJECT_DIR$/spec/recommendations/datamodels/mongo_data_model_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/lib/recommendations/datamodels/mongo_data_model.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/caching/cacheable.rb">
+    <entry file="file://$PROJECT_DIR$/lib/recommendations/recommender/generic_user_based_recommender.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/full_mongo_backed_integrated_recommendation_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="10" column="49" selection-start="511" selection-end="511" vertical-scroll-proportion="0.1713881">
+=======
+        <state line="18" column="7" selection-start="702" selection-end="702" vertical-scroll-proportion="0.49196142">
+>>>>>>> 057bd15696e0e4388eaa83f003ac1e0dcd8e40df
           <folding />
         </state>
       </provider>
