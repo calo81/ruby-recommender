@@ -23,7 +23,7 @@ describe "Recommendations with mongo datamodel" do
     neighborhood = Recommendations::Similarity::Neighborhood::NearestNUserNeighborhood.new(data_model,similarity,5,0.5,100)
     rating_estimator = Recommendations::Recommender::Estimation::DefaultRatingEstimator.new(data_model,similarity)
     recommender = Recommendations::Recommender::GenericUserBasedRecommender.new(data_model,similarity,neighborhood,rating_estimator)
-    recommendations = recommender.recommend('9810',5)
+    recommendations = recommender.recommend('A',5)
     recommendations.should == [Recommendations::Model::RecommendedItem.new('D',2.0)]
   end
 end
