@@ -1,7 +1,9 @@
 require_relative '../../../lib/recommendations/model/recommended_item'
+require_relative '../../../lib/caching/cacheable'
 module Recommendations
   module Recommender
     class GenericUserBasedRecommender
+      include Cacheable
       def initialize(data_model, similarity, neighborhood, rating_estimator)
         @data_model = data_model
         @similarity = similarity
@@ -21,6 +23,8 @@ module Recommendations
         end
         recommendations.sort_by {|recommendation| recommendation.value}.reverse.first(n_recommendations)
       end
+
+      cacheable :recommend
     end
   end
 end
