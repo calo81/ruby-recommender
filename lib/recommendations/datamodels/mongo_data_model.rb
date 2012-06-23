@@ -42,6 +42,10 @@ module Recommendations
         extract_results_into_preferences(results)
       end
 
+      def set_preference(user,item,value)
+        @collection.insert({user_id: user, item_id: item, preference: value})
+      end
+
       private
       def extract_results_into_preferences(results)
         preferences = Recommendations::Model::Preferences.new

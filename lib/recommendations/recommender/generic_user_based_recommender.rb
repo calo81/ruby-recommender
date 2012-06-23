@@ -24,6 +24,10 @@ module Recommendations
         recommendations.sort_by {|recommendation| recommendation.value}.reverse.first(n_recommendations)
       end
 
+      def set_preference(user,item,value)
+        @data_model.set_preference(user,item,value)
+      end
+
       cacheable :recommend
     end
   end
